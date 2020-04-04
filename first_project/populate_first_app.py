@@ -1,7 +1,8 @@
 import os
+import django
+
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'first_project.settings')
 
-import django
 django.setup()
 
 # Implement Fake Population script here.
